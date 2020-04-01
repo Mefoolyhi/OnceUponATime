@@ -10,8 +10,8 @@ namespace OnceUponATime
         [Test]
         public void JsonParserSeriesTest()
         {
-            var jp = new JsonParser();
-            jp.SetFilename("series/Test/TestParse.json");
+            var jp = new JsonParser(@"C:\Users\alexandr.pankratov\Desktop\OnceUponATime"); //TODO Вставьте свою корневую директорию
+            jp.SetFilename("series/Test/1.json");
             var series = jp.GetSeries();
             series.Story.Should().Be("Test");
             series.Season.Should().Be(1);
