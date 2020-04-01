@@ -102,6 +102,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\Test\Jake.png" />
+    <Content Include="images\Test\Olivia.png" />
+    <Content Include="images\Test\Tom.png" />
     <Content Include="ReadMe.txt" />
     <Content Include="series\Test\1.json" />
   </ItemGroup>
