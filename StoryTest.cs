@@ -2,7 +2,6 @@
 using FluentAssertions;
 using NUnit.Framework;
 
-
 namespace OnceUponATime
 {
     [TestFixture]
